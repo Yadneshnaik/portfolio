@@ -6,8 +6,8 @@ const HomePage = () => {
     <Container className="text-center py-5">
       <Row>
         <Col>
-          <h1>Welcome to My Portfolio</h1>
-          <p>I'm a passionate Full Stack Developer</p>
+          <h1>Yadnesh Naik</h1>
+          <p>Full Stack Developer | Entrepreneur</p>
         </Col>
       </Row>
     </Container>

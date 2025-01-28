@@ -11,8 +11,8 @@ function App() {
     <Router>
       <div>
         <HomePage />
-        <SkillsPage />
         <AboutMePage />
+        <SkillsPage />
         <ProjectsPage />
         <Footer />
       </div>
