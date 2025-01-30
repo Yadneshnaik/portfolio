@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
-import { FaLinkedin, FaGithub, FaWhatsapp } from "react-icons/fa"; // Importing React Icons
+import { FaLinkedin, FaGithub, FaWhatsapp, FaEnvelope } from "react-icons/fa"; // Importing React Icons
 
 const Footer = () => {
   return (
@@ -37,6 +37,15 @@ const Footer = () => {
             aria-label="WhatsApp"
           >
             <FaWhatsapp size={20} />
+          </a>
+          <a
+            href="mailto:naikyadnesh9@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn btn-success mb-2 mx-2"
+            aria-label="Email"
+          >
+            <FaEnvelope size={20} />
           </a>
         </Col>
 
