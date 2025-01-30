@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Row, Col, Card } from 'react-bootstrap';
+import { Container, Row, Col, Card, Button } from 'react-bootstrap';
 
 const ProjectsPage = () => {
   return (
@@ -9,8 +9,11 @@ const ProjectsPage = () => {
         <Col md={4}>
           <Card>
             <Card.Body>
-              <Card.Title>ECommrce Project</Card.Title>
-              <Card.Text>Did Reselling ECommrce Project using Laravel and MySql</Card.Text>
+            <Card.Title>Vista Develeoper</Card.Title>
+              <Card.Text>Building a personal website using MERN STACK</Card.Text>
+              <Button variant="primary" href="https://vistadeveloper.vercel.app/" target="_blank">
+                View Project
+              </Button>
             </Card.Body>
           </Card>
         </Col>
