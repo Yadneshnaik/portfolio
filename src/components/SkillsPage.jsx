@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Row, Col, Card } from 'react-bootstrap';
-import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaPhp, FaJava, FaDrupal, FaWordpress, FaLaravel } from 'react-icons/fa';
+import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaPhp, FaJava, FaDrupal, FaWordpress, FaLaravel, FaFigma } from 'react-icons/fa';
 import { DiMongodb, DiMysql } from 'react-icons/di';
 
 const SkillsPage = () => {
@@ -99,6 +99,14 @@ const SkillsPage = () => {
             <Card.Body className="text-center">
               <FaLaravel size={50} color="#0077C0" />
               <Card.Title>Laravel</Card.Title>
+            </Card.Body>
+          </Card>
+        </Col>
+        <Col md={4}>
+          <Card>
+            <Card.Body className="text-center">
+              <FaFigma size={50} color="#0077C0" />
+              <Card.Title>Figma</Card.Title>
             </Card.Body>
           </Card>
         </Col>
