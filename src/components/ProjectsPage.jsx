@@ -9,11 +9,16 @@ const ProjectsPage = () => {
         <Col md={4}>
           <Card>
             <Card.Body>
-            <Card.Title>Vista Develeoper</Card.Title>
-              <Card.Text>Building a personal website using MERN STACK</Card.Text>
-              <Button variant="primary" href="https://vistadeveloper.vercel.app/" target="_blank">
-                View Project
-              </Button>
+            <Card.Title>Ecommerce Project</Card.Title>
+              <Card.Text>Building Ecommerce Project using Laravel and Mysql</Card.Text>
+            </Card.Body>
+          </Card>
+        </Col>
+        <Col md={4}>
+          <Card>
+            <Card.Body>
+            <Card.Title>Amazon Clone</Card.Title>
+              <Card.Text>Building Amazon Clone using MERN Stack</Card.Text>
             </Card.Body>
           </Card>
         </Col>
