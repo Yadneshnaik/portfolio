@@ -7,7 +7,7 @@ const HomePage = () => {
       <Row>
         <Col>
           <h1>Yadnesh Naik</h1>
-          <p>Full Stack Developer | Entrepreneur</p>
+          <p>Full Stack Developer</p>
         </Col>
       </Row>
     </Container>
