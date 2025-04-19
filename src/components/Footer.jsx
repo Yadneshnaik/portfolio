@@ -4,7 +4,7 @@ import { FaLinkedin, FaGithub, FaWhatsapp, FaEnvelope } from "react-icons/fa"; /
 
 const Footer = () => {
   return (
-    <Container fluid className="bg-dark text-white py-4">
+    <Container fluid className="text-white py-4" style={{ zIndex: 2, position: 'relative' }}>
       <Row className="align-items-center">
         <Col md={4} className="text-center">
           <p>&copy; 2025 My Portfolio. All rights reserved.</p>

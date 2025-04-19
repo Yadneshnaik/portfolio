@@ -5,17 +5,18 @@ import Footer from './components/Footer';
 import SkillsPage from './components/SkillsPage';
 import AboutMePage from './components/AboutMePage';
 import ProjectsPage from './components/ProjectsPage';
+import Background3D from './components/Background3D';
 
 function App() {
   return (
     <Router>
-      <div>
+      <Background3D>
         <HomePage />
         <AboutMePage />
         <SkillsPage />
         <ProjectsPage />
         <Footer />
-      </div>
+      </Background3D>
     </Router>
   );
 }
